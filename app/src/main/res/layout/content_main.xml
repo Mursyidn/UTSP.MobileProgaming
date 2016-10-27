@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="133dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logo"
+        android:id="@+id/imageView3"
+        android:layout_weight="0.08" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Martabak Monkey Berdiri sejak 2013, dengan berbagai varian rasa yang berbeda dengan keunggulan bisa delivery dan bisa melakukan booking tempat harga mulai dari 35.000."
+        android:textSize="15sp" />
+
+
+
+</LinearLayout>
